@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+  ID ganha # para personalizar (permite ser usado uma vez)
+  CLASS ganha . para personalizar (permite ser usado varias vezes)
+*/
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(68, 45, 14);
+}
+
+#principal {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(97, 56, 3);
+}
+
+.basico {
+    color: rgb(1, 174, 1);
+}
+
+.intermediario {
+    color: rgb(183, 183, 0);
+}
+
+.avancado {
+    color: rgb(197, 1, 1);
+}
