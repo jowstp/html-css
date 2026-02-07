@@ -1,18 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina</title>
+    <title>tabelas responsivas</title>
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(220, 125, 1);
-            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            overflow-x: auto;
         }
     </style>
 </head>
+
 <body>
-    <h1>isso é um teste!</h1>
+    <h1>tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam deserunt, similique alias commodi delectus vel
+        adipisci eius dolorem vitae necessitatibus consequatur enim impedit, nisi et non! Cum ab provident
+        necessitatibus.</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>22</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>28</td>
+                    <td>26</td>
+                    <td>24</td>
+                    <td>20</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>40</td>
+                    <td>38</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>55</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>68</td>
+                    <td>65</td>
+                    <td>62</td>
+                    <td>58</td>
+                    <td>54</td>
+                </tr>
+                <tr>
+                    <td>Teclado</td>
+                    <td>25</td>
+                    <td>28</td>
+                    <td>30</td>
+                    <td>32</td>
+                    <td>35</td>
+                    <td>38</td>
+                    <td>40</td>
+                    <td>39</td>
+                    <td>37</td>
+                    <td>36</td>
+                    <td>34</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>16</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>22</td>
+                    <td>21</td>
+                    <td>19</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Headset</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>22</td>
+                    <td>24</td>
+                    <td>26</td>
+                    <td>28</td>
+                    <td>35</td>
+                    <td>33</td>
+                    <td>30</td>
+                    <td>29</td>
+                    <td>27</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Webcam</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>16</td>
+                    <td>18</td>
+                    <td>17</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Impressora</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
