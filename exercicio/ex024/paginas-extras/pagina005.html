@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: burlywood;
+            color: rgb(17, 235, 255);
+            font-size: 1.4em;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(2, 234, 255);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">CLIQUE AQUI!</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById('saida')
+            s.innerHTML += '<p>clicado!</p>'
+        }
+    </script>
+</body>
+</html>
