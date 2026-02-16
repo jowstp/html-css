@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            background-image: linear-gradient(to right, #87CEFA, #00BFFF);
+            color: #1f2933;
+        }
+
+        section {
+            position: relative;
+            height: 100vh;
+        }
+
+        div {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 45%;
+            left: 50%;
+            background-color: #ffffff9d;
+            width: 350px;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid #ffffffb9;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(20, 0, 94, 0.233);
+        }
+
+        h1 {
+            margin: 50px;
+            font-weight: bold;
+            font-size: 2.3em;
+            background: linear-gradient(to right, #5d7ffa, #011a54);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        p {
+            background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.167), #ffffff7d);
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.231);
+        }
+
+        p.outross {
+            background-image: none;
+            border: none;
+            text-align: left;
+        }
+
+        input {
+            background-color: none;
+            transition: 1.5s;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 15px;
+            background-image: linear-gradient(to right, #134fddc7, #002375c7);
+            color: white;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: blue;
+        }
+
+        h1:hover {
+            background: linear-gradient(to right, #fdf22283, #6c6c0079);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Login</h1>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p> <label for="iusu">Usuario:</label> <input type="text" name="usu" id="iusu" required maxlength="20"
+                        placeholder="seu nome" autocomplete="name"> </p>
+                <p> <label for="isen">Senha:</label> <input type="password" name="sen" id="isen" required
+                        placeholder="sua senha" minlength="3" maxlength="15" autocomplete="current-password"> </p>
+                <p> <span>Sexo:</span> <label> <input type="radio" name="sex" value="feminino" required> feminino
+                    </label> <label> <input type="radio" name="sex" value="masculino" required checked> masculino
+                    </label> </p>
+                <p class="outross"> <input type="submit" value="Enviar"> <input type="reset" value="Limpar"> </p>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
