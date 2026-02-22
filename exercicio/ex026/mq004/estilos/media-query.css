@@ -37,7 +37,7 @@ Grandes telas: acima de 1280px
     img#tv { display: none;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {/*Tablet*/
     body {
         background-image: url("../imagens/back-tablet.jpg");
     }
@@ -49,7 +49,7 @@ Grandes telas: acima de 1280px
     img#tv { display: none;}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {/*Desktop*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {/*Desktop*/
     body {
         background-image: url("../imagens/back-pc.jpg");
     }
