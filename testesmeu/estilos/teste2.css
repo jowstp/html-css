@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: rgb(227, 226, 226);
+}
+
+/*cabecalho*/
+
+header {
+    background-color: rgb(14, 99, 210);
+    border-bottom: rgb(11, 78, 165);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(223, 223, 31);
+}
+
+header > h1:hover {
+    color: yellow;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    display: block;
+    background-color: rgba(80, 135, 255, 0.786);
+    color: white;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 57px;
+    border: 1px solid rgb(11, 78, 165);
+    border-radius: 15px;
+    transition: background-color 2s ease, transform 2s ease;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: rgb(96, 189, 255, 0.786);
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+/*conteudo*/
+
+main > article {
+    display: block;
+    width: 90vw;
+    background-color: rgb(255, 187, 15);
+    color: black;
+    padding: 10px;
+    padding-top: 30px;
+    margin: auto;    
+    border: 3px solid rgb(233, 186, 33);
+    border-top: 0;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 5px rgba(108, 86, 15, 0.447);
+}
+
+main > article > h2 {
+    color: yellow;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main > article > p {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-indent: 15px;
+    line-height: 1.6;
+}
+
+iframe#frame {
+    display: block;
+    background-color: rgb(19, 80, 155);
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 400px;
+    border: 7px solid rgb(19, 80, 155);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.505);
+}
+
+/*"creditos"*/
+
+footer {
+    background-color: rgb(223, 72, 42);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer > p > a {
+    color: rgb(223, 223, 9);
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
