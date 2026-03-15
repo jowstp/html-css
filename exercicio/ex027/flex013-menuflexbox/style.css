@@ -9,13 +9,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    background-color: lightgray;
+    background-image: linear-gradient(to left, #ccdead, #dddead);
     width: 100vw;
     height: 100vh;
 }
 
 header {
-    background-color: gray;
+    background-color: #6d906f;
     color: white;
     padding: 10px;
 
@@ -39,7 +39,7 @@ header > nav {
 }
 
 header > nav > a {
-    background-color: black;
+    background-color: #bbdead;
     color: white;
     padding: 10px;
     margin: 5px;
@@ -49,15 +49,22 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    background-color: white;
-    color: black;
+    background-color: #eedead;
+    color: #6d906f;
     transition: background-color 0.5s ease;
 }
 
-main {
-    background-color: white;
+section {
+    background-color: #eedead;
+    max-width: 900px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.458);
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
