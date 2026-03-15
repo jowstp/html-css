@@ -46,12 +46,12 @@ header > nav > a {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+    transition: background-color 0.5s ease;
 }
 
 header > nav > a:hover {
     background-color: #eedead;
     color: #6d906f;
-    transition: background-color 0.5s ease;
 }
 
 section {
